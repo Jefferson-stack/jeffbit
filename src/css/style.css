@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.9) 90%);
+    z-index: -1;
+}
+
+body{
+    background: url(../img/fundo-cosmico-com-luzes-laser-coloridas-perfeito-para-um-papel-de-parede-digital.jpg) no-repeat center;
+    background-attachment: fixed;
+}
+
+nav.navbar-transparente{
+    background: rgba(0,0,0,0.6);
+    padding: 15px 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #7fb8b0;
+    border-bottom: 1px solid #7fb8b0; 
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(22, 129, 201, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.divisor{
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
+}
+
+.capa{
+    text-align: center;
+    
+}
+
+.capa h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em
+}
+
+.btn-custom{
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0,4s;
+    padding: 10px 15px;
+    background: #000000;
+    width: 300px;
+    margin: 0 15px;
+    border: 1px solid #fff; 
+}
+
+.btn-custom:hover{
+    color:#233272;
+    border: 1px solid #233272;
+}
+
+
+#servicos{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;  
+}
+
+.albuns{   
+    padding: 10px 0;
+}
+
+
+#servicos h3{
+    color: #233272;
+}
+
+#recursos h2{
+    color: #5ab0ca;
+}
+
+#recursos h3{
+    color: #5ab0ca;
+}
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos p{
+    color: #fff;
+}
+
+.rotacionar{
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+footer{
+    background-color: #000000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: #bbbbbb;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+    color: #807c7c;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+footer ul li{
+    margin: 0 5px;
+}
+
